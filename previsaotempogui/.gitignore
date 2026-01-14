@@ -1,0 +1,29 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.swp
+
+# Dados e figuras locais
+data/*.csv
+figures/*.png
+
+# Sistema
+.DS_Store
