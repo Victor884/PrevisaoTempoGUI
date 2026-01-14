@@ -3,3 +3,5 @@ pandas
 matplotlib
 python-dotenv
 streamlit
+folium
+streamlit-folium
