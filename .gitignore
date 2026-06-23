@@ -1,0 +1,40 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+
+# Variaveis de ambiente e credenciais
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Dados e saidas locais
+previsaotempogui/data/*.csv
+previsaotempogui/figures/*.png
+data/raw/
+data/processed/
+figures/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE e sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
